@@ -11,6 +11,13 @@ export class ViewStudentsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  name="rahul"
+  data=[
+    {"name":"RAHUL","age":23,"photo":"https://koms.korloy.com/resource/lib/ace-admin/assets/avatars/profile-pic.jpg"},
+    {"name":"RAJESH","age":23,"photo":"https://koms.korloy.com/resource/lib/ace-admin/assets/avatars/profile-pic.jpg"},
+    {"name":"REMYA","age":30,"photo":"https://koms.korloy.com/resource/lib/ace-admin/assets/avatars/profile-pic.jpg"},
+    {"name":"RAMESH","age":28,"photo":"https://koms.korloy.com/resource/lib/ace-admin/assets/avatars/profile-pic.jpg"},
+    {"name":"REJINA","age":20,"photo":"https://koms.korloy.com/resource/lib/ace-admin/assets/avatars/profile-pic.jpg"},
+    {"name":"RINO","age":23,"photo":"https://koms.korloy.com/resource/lib/ace-admin/assets/avatars/profile-pic.jpg"}
+  ]
     
 }
